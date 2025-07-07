@@ -86,50 +86,52 @@ This template uses [Email.js](https://www.emailjs.com/) for handling contact for
 
     Here's an example template you can use:
 
-    <pre><code>
-&lt;div style=&quot;font-family: system-ui, sans-serif, Arial; font-size: 12px&quot;&gt;
-  &lt;div&gt;
-    A message by &lt;strong&gt;{{name}}&lt;/strong&gt; ({{email}}) has been received with the subject
-    &quot;&lt;strong&gt;{{subject}}&lt;/strong&gt;&quot;. Kindly respond at your earliest convenience.
-  &lt;/div&gt;
+```jsx
 
-  &lt;div
-    style=&quot;
+<div style="font-family: system-ui, sans-serif, Arial; font-size: 12px">
+  <div>
+    A message by <strong>{{name}}</strong> ({{email}}) has been received with the subject
+    "<strong>{{subject}}</strong>". Kindly respond at your earliest convenience.
+  </div>
+
+  <div
+    style="
       margin-top: 20px;
       padding: 15px 0;
       border-width: 1px 0;
       border-style: dashed;
       border-color: lightgrey;
-    &quot;
-  &gt;
-    &lt;table role=&quot;presentation&quot;&gt;
-      &lt;tr&gt;
-        &lt;td style=&quot;vertical-align: top&quot;&gt;
-          &lt;div
-            style=&quot;
+    "
+  >
+    <table role="presentation">
+      <tr>
+        <td style="vertical-align: top">
+          <div
+            style="
               padding: 6px 10px;
               margin: 0 10px;
               background-color: aliceblue;
               border-radius: 5px;
               font-size: 26px;
-            &quot;
-            role=&quot;img&quot;
-          &gt;
-            &amp;#x1F4E7;
-          &lt;/div&gt;
-        &lt;/td&gt;
-        &lt;td style=&quot;vertical-align: top&quot;&gt;
-          &lt;div style=&quot;color: #2c3e50; font-size: 16px&quot;&gt;
-            &lt;strong&gt;{{name}}&lt;/strong&gt; — &lt;a href=&quot;mailto:{{email}}&quot; style=&quot;color: #3498db&quot;&gt;{{email}}&lt;/a&gt;
-          &lt;/div&gt;
-          &lt;div style=&quot;color: #999999; font-size: 13px&quot;&gt;&lt;em&gt;Subject:&lt;/em&gt; {{subject}}&lt;/div&gt;
-          &lt;p style=&quot;font-size: 16px; margin-top: 10px&quot;&gt;{{message}}&lt;/p&gt;
-        &lt;/td&gt;
-      &lt;/tr&gt;
-    &lt;/table&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-    </code></pre>
+            "
+            role="img"
+          >
+            &#x1F4E7;
+          </div>
+        </td>
+        <td style="vertical-align: top">
+          <div style="color: #2c3e50; font-size: 16px">
+            <strong>{{name}}</strong> — <a href="mailto:{{email}}" style="color: #3498db">{{email}}</a>
+          </div>
+          <div style="color: #999999; font-size: 13px"><em>Subject:</em> {{subject}}</div>
+          <p style="font-size: 16px; margin-top: 10px">{{message}}</p>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+```
 
 4.  **Get your Public Key:** You can find your Public Key under **Account** -> **API Keys**.
 
