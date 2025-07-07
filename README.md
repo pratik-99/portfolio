@@ -2,6 +2,13 @@
 
 This is a modern, animated, and fully responsive portfolio template built with **nextjs**, **typescript**, **Tailwind CSS**, and **Framer Motion**. It's designed to be easily customizable and provides a great starting point for developers who want to create a stunning personal portfolio.
 
+<br/>
+<p align="center">
+  <a href="https://portfolio-template-seven-murex.vercel.app" target="_blank">
+    <img src="./public/cover-github.png" alt="portfolio-template" />
+  </a>
+</p>
+
 ## Features
 
 - **Modern UI/UX:** Clean and visually appealing design.
@@ -85,9 +92,8 @@ This template uses [Email.js](https://www.emailjs.com/) for handling contact for
 3.  **Create a new Email Template:** Go to Email Templates and create a new template. You can use the default template or customize it. Make note of your **Template ID**.
 
     Here's an example template you can use:
-
+    
 ```jsx
-
 <div style="font-family: system-ui, sans-serif, Arial; font-size: 12px">
   <div>
     A message by <strong>{{name}}</strong> ({{email}}) has been received with the subject
@@ -131,6 +137,7 @@ This template uses [Email.js](https://www.emailjs.com/) for handling contact for
   </div>
 </div>
 
+
 ```
 
 4.  **Get your Public Key:** You can find your Public Key under **Account** -> **API Keys**.
@@ -149,13 +156,13 @@ This template uses [Email.js](https://www.emailjs.com/) for handling contact for
 
 ## Technologies Used
 
-- **Next.js:** A React framework for production.
-- **React:** A JavaScript library for building user interfaces.
-- **Tailwind CSS:** A utility-first CSS framework.
-- **Framer Motion:** A library for creating animations in React.
-- **HeroUI:** A React UI library for beautiful and accessible components.
-- **Iconify:** A library for using icons from various icon sets.
-- **TypeScript:** A typed superset of JavaScript.
+- **[Next.js](https://nextjs.org/):** A React framework for production.
+- **[React](https://react.dev/):** A JavaScript library for building user interfaces.
+- **[Tailwind CSS](https://tailwindcss.com/):** A utility-first CSS framework.
+- **[Framer Motion](https://www.framer.com/motion/):** A library for creating animations in React.
+- **[HeroUI](https://www.heroui.com/):** A React UI library for beautiful and accessible components.
+- **[Iconify](https://iconify.design/):** A library for using icons from various icon sets.
+- **[TypeScript](https://www.typescriptlang.org/):** A typed superset of JavaScript.
 
 
 ## License
