@@ -5,7 +5,6 @@ export const DATA = {
       title: "Full stack developer & UI/UX Designer",
       subtitle:
         "I build fast, accessible and visually engaging web experiences.",
-      downloadCV: "/new CV.pdf",
     },
     skills: {
       sectionTitle: "Skills & Expertise",

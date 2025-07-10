@@ -81,6 +81,35 @@ This file exports a `DATA` object that contains all the information for your por
 
 Simply update the values in this file to personalize your portfolio.
 
+**How to Add Your CV**
+
+1. `Upload Your CV` : Place your CV file in the `public` folder of the project.
+
+2. `Update the Download Link` : Modify the `href` attribute of the "Download CV" button in the `hero.tsx` file to point to your uploaded CV.
+
+Here's an example
+
+```hero.tsx
+            <Link
+              download
+              aria-label="Download CV in PDF format"
+              className="w-full sm:w-auto"
+              href="/your-cv-filename.pdf"
+            >
+              <Button
+                fullWidth
+                aria-label="Downoald CV"
+                color="primary"
+                endContent={<Icon icon="lucide:download" />}
+                size="lg"
+                variant="shadow"
+              >
+                Download CV
+              </Button>
+            </Link>
+
+```
+
 ## Contact Form Setup (Email.js)
 
 This template uses [Email.js](https://www.emailjs.com/) for handling contact form submissions without a backend. To set it up:
