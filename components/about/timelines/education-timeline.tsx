@@ -2,10 +2,10 @@
 
 import { motion } from "framer-motion";
 
-import { SectionHeader } from "../section-header";
-import { TimelineItem } from "../timelines/timeline-item";
-import { containerVariants, itemVariants } from "../variants";
-import { EducationItems } from "../types";
+import { SectionHeader } from "@/components/about/section-header";
+import { TimelineItem } from "@/components/about/timelines/timeline-item";
+import { containerVariants, itemVariants } from "@/components/about/variants";
+import { EducationItems } from "@/components/about/types";
 
 interface EducationTimelineProps {
   education: EducationItems;

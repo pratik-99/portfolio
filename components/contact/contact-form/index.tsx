@@ -20,7 +20,6 @@ export const ContactForm: React.FC<ContactFormProps> = ({
     errors,
     isValid,
     handleInputChange,
-    handleSubmit,
     resetForm,
     validateField,
   } = useContactForm();

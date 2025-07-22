@@ -17,7 +17,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://heroui.net"),
+  metadataBase: new URL("http://localhost:3000"),
   title: {
     default: DATA.home.hero.name,
     template: `%s | ${DATA.home.hero.name}`,
@@ -82,7 +82,6 @@ export default function RootLayout({ children }: RootLayoutProps) {
         >
           <StarsBackground>{content}</StarsBackground>
         </Providers>
-
       </body>
     </html>
   );
