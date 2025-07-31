@@ -183,7 +183,7 @@ export const DATA = {
           { name: "OpenAI", icon: "simple-icons:openai" },
         ],
       },
-      uiux: {
+      uiUx: {
         description:
           "I design smooth, user-centered interfaces and high-fidelity prototypes.",
         tools: [

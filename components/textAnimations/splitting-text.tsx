@@ -91,7 +91,7 @@ export const SplittingText = React.forwardRef<
           delayChildren: delay / 1000,
           staggerChildren:
             motionVariants.stagger ??
-            (type === "chars" ? 0.05 : type === "words" ? 0.2 : 0.3),
+            (type === "chars" ? 0.05 : type === "words" ? 0.06 : 0.3),
         },
       },
     };
