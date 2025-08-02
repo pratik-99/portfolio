@@ -61,7 +61,7 @@ export const SplittingText = React.forwardRef<
       delay = 0,
       ...props
     },
-    ref,
+    ref
   ) => {
     const items = React.useMemo<React.ReactNode[]>(() => {
       if (Array.isArray(text)) {
@@ -151,11 +151,11 @@ export const SplittingText = React.forwardRef<
                 </motion.span>
                 {type === "words" && " "}
               </React.Fragment>
-            ),
+            )
         )}
       </motion.span>
     );
-  },
+  }
 );
 
 SplittingText.displayName = "SplittingText";

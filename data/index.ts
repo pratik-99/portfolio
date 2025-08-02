@@ -1,8 +1,8 @@
 export const DATA = {
   home: {
     hero: {
-      name: "Sofiane Bahmed",
-      title: "Full stack developer & UI/UX Designer",
+      name: "Pratik Poojary",
+      title: "Full stack developer",
       subtitle:
         "I build fast, accessible and visually engaging web experiences.",
     },
@@ -12,33 +12,33 @@ export const DATA = {
         " Specialized in creating modern digital experiences with cutting-edge technologies",
       overview: [
         {
-          name: "UI/UX Design",
-          level: 95,
-          icon: "lucide:layout-dashboard",
+          name: "Python",
+          level: 85,
+          icon: "mdi:language-python",
           color: "primary",
         },
         {
-          name: "Frontend Development",
-          level: 90,
-          icon: "lucide:code",
+          name: "TypeScript",
+          level: 70,
+          icon: "simple-icons:typescript",
           color: "secondary",
         },
         {
-          name: "Mobile Development",
-          level: 85,
-          icon: "lucide:smartphone",
+          name: "Node JS",
+          level: 70,
+          icon: "mdi:nodejs",
           color: "success",
         },
         {
-          name: "Motion Design",
+          name: "React",
           level: 88,
-          icon: "lucide:video",
-          color: "warning",
+          icon: "mdi:react",
+          color: "default",
         },
       ],
     },
     testimonials: {
-      sectionTitle: "Client Testimonials",
+      sectionTitle: "Certifications",
       sectionDescription: "What clients say about working together",
       items: [
         {
@@ -102,10 +102,10 @@ export const DATA = {
   },
   about: {
     profile: {
-      name: "Sofiane Bahmed",
+      name: "Pratik Poojary",
       title: "Full Stack Developer",
       image:
-        "https://res.cloudinary.com/devq06psf/image/upload/v1750626859/chic_soba_apc1ht.png",
+        "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754122232/pratik_crop_xc6u7q.jpg",
       description: [
         "I'm a creative full-stack developer with a passion for UI/UX design and clean code. I focus on building beautiful, functional, and high-performance websites and web apps.",
         "My approach is both technical and aesthetic — I enjoy turning complex problems into elegant user experiences. I work primarily with modern frameworks like React, Vite, and TailwindCSS.",
@@ -114,48 +114,44 @@ export const DATA = {
     },
     education: [
       {
-        title: "High School of Art and Design",
-        date: "2003 - 2006",
+        title: "High Secondary Education",
+        date: "2015 - 2017",
         icon: "mdi:palette",
-        description:
-          "Focused on foundational art and visual design principles, which sparked my early interest in creative problem solving. Explored traditional media, digital illustration, and visual storytelling.",
+        description: "Science (Electronics)",
       },
       {
-        title: "University of Technology and Design",
-        date: "2006 - 2010",
+        title: "University of Mumbai",
+        date: "2017 - 2021",
         icon: "mdi:school",
-        description:
-          "Earned a Bachelor's degree in Computer Science with a minor in Design. Gained strong skills in software development, user interface engineering, data structures, and human-computer interaction.",
-      },
-      {
-        title: "Institute of Interactive Media",
-        date: "2011 - 2012",
-        icon: "mdi:school-outline",
-        description:
-          "Completed a Master's degree specializing in UX/UI Design and Front-End Development. Merged technical expertise with visual communication to design user-centered digital products and prototypes.",
+        description: "B.Tech (Electronics and Telecommunication)",
       },
     ],
     experience: [
       {
-        title: "Creative Director",
-        date: "2018 - Present",
-        icon: "mdi:briefcase",
-        description:
-          "Lead creative and development teams to build digital experiences that combine innovation with user empathy. Oversee branding, UI/UX strategy, and development pipelines for tech startups and clients.",
-      },
-      {
-        title: "Senior UX Engineer",
-        date: "2015 - 2018",
-        icon: "mdi:monitor-dashboard",
-        description:
-          "Designed and implemented high-fidelity web interfaces using React, Figma, and Tailwind. Collaborated cross-functionally with developers and designers to craft intuitive user flows and interactions.",
-      },
-      {
-        title: "Front-End Developer & Designer",
-        date: "2012 - 2015",
+        company: "Upstream",
+        title: "Full Stack Developer",
+        date: "Jul 2025 - present",
         icon: "mdi:code-tags",
-        description:
-          "Developed responsive websites and applications with a focus on accessibility, visual aesthetics, and performance. Delivered pixel-perfect interfaces from wireframes to production code.",
+        description: `Working on developing Custom Backend features using Node js/ Typescript for Monday.com platform.`,
+      },
+      {
+        company: "Taurus Technologies",
+        title: "Full Stack Developer",
+        date: "Feb 2024 - Jun 2025",
+        icon: "mdi:monitor-dashboard",
+        description: `Developed backend APIs in Laravel for Star Insurance Company to optimize workflows. 
+            Led a team to build dynamic reporting dashboards using Python, FastAPI, React, AG-Grid, and AG-Charts for visualizing claims and policy data. 
+            Also designed a Domain-Specific Query Language (DSL) using Lark to interpret user queries and auto-generate dashboards.`,
+      },
+      {
+        company: "WonderBiz Technologies",
+        title: "Software Developer",
+        date: "July 2021 - Sept 2023",
+        icon: "mdi:briefcase",
+        description: `Engineered full-stack features in C# and ReactJS for Schneider Electric's EcoStruxure Automation Expert platform, enabling customizable automation blocks. 
+          Revamped the Bulk Engineering plugin with a cost-effective hierarchical table design, 
+          replacing AG-Grid Enterprise and improving performance. Delivered a React-based POC for rendering Excel/XML data as editable tables, 
+          later adopted in production, and resolved critical UI and functional bugs to enhance platform stability.`,
       },
     ],
     technologies: {
@@ -173,42 +169,15 @@ export const DATA = {
       },
       backend: {
         description:
-          "I build fast APIs and scalable backends using Node.js, Bun, and Python.",
+          "I build fast APIs and scalable backends using Node.js, GraphQl, and Python.",
         tools: [
           { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "Bun", icon: "logos:bun" },
+          { name: "GraphQL", icon: "logos:graphql" },
           { name: "Python", icon: "logos:python" },
           { name: "MySQL", icon: "logos:mysql-icon" },
-          { name: "PostgresSQL", icon: "logos:postgresql" },
           { name: "OpenAI", icon: "simple-icons:openai" },
         ],
-      },
-      uiUx: {
-        description:
-          "I design smooth, user-centered interfaces and high-fidelity prototypes.",
-        tools: [
-          { name: "Figma", icon: "logos:figma" },
-          { name: "Framer", icon: "simple-icons:framer", color: "#0055FF" },
-          { name: "Notion", icon: "logos:notion-icon" },
-        ],
-      },
-      graphicDesign: {
-        description:
-          "My graphic work includes logos, branding, and posters using Adobe Suite.",
-        tools: [
-          { name: "Photoshop", icon: "logos:adobe-photoshop" },
-          { name: "Illustrator", icon: "logos:adobe-illustrator" },
-        ],
-      },
-      motionDesign: {
-        description:
-          "I animate UI flows and cinematic intros using After Effects and Blender.",
-        tools: [
-          { name: "After Effects", icon: "logos:adobe-after-effects" },
-          { name: "Premiere Pro", icon: "logos:adobe-premiere" },
-          { name: "Blender", icon: "logos:blender" },
-        ],
-      },
+      }
     },
   },
   projects: {
@@ -218,237 +187,77 @@ export const DATA = {
     work: [
       {
         id: 1,
-        title: "Digital Banking App",
+        title: "Notes App",
         description:
-          "A streamlined digital banking interface emphasizing clarity, speed, and intuitive design.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1",
+          "Simple Notes App with the ability to add, edit, and delete notes built using React.",
+        image: "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754136648/notes_hbzd7b.png",
         gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=1-3",
+          "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754136648/notes_hbzd7b.png",
         ],
-        category: "Applications",
+        category: "Web Development",
         details:
-          "A feature-rich digital banking app built with React and TailwindCSS, integrating seamless animations via Framer Motion. Designed with a mobile-first approach and a modular component system powered by TypeScript and Vite.",
-        github: "https://github.com",
-        live: "https://example.com",
+          "Simple Notes App with the ability to add, edit, and delete notes built using React.",
+        github: "https://github.com/pratik-99/notes-app",
+        live: "https://notes-app-psi-one.vercel.app/",
         tech: [
           { name: "React", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "TypeScript", icon: "logos:typescript-icon" },
-          { name: "Expo", icon: "simple-icons:expo" },
         ],
       },
       {
         id: 2,
-        title: "E-commerce Platform",
+        title: "Vans App",
         description:
-          "Scalable and responsive online store with dynamic product filtering and intuitive cart management.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2",
+          "A simple Routing App designed for Showcasing different Vans and their Features, built using React.",
+        image: "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754134138/vans-app_kwgwqv.png",
         gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=2-3",
+          "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754134138/vans-app_kwgwqv.png",
+          "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754134356/van-explorer_bitzpk.png",
         ],
         category: "Web Development",
         details:
-          "A fully functional e-commerce platform built with React and TailwindCSS. Features product listings, advanced filters, cart and checkout system, and a modern UI with responsive design for all devices.",
-        github: "https://github.com",
-        live: "https://example.com",
+          "A simple Routing App designed for Showcasing different Vans and their Features, built using React. ",
+        github: "https://github.com/pratik-99/routing-project",
+        live: "https://routing-project-zeta.vercel.app/",
         tech: [
           { name: "React", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "TypeScript", icon: "logos:typescript-icon" },
-          { name: "PostgreSQL", icon: "logos:postgresql" },
         ],
-      },
+      },      
       {
         id: 3,
-        title: "Travel Booking System",
+        title: "Tenzies Game",
         description:
-          "Comprehensive booking platform for flights, hotels, and rentals with live availability.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3",
+          "A Dice Rolling Game built using React.",
+        image: "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754140058/Tenzies_qlsw4h.png",
         gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=3-3",
+          "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754140058/Tenzies_qlsw4h.png",
         ],
         category: "Web Development",
         details:
-          "A modern travel booking system built with Next.js and TailwindCSS. Users can search and book flights, hotels, and car rentals with real-time availability and intuitive UI components powered by HeroUI.",
-        github: "https://github.com",
-        live: "https://example.com",
+          "A Dice Rolling Game built using React.",
+        github: "https://github.com/pratik-99/tenzies",
+        live: "https://tenzies-gamma-ecru.vercel.app/",
         tech: [
-          { name: "Next.js", icon: "skill-icons:nextjs-dark" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "TypeScript", icon: "logos:typescript-icon" },
+          { name: "React", icon: "logos:react" },
         ],
       },
       {
         id: 4,
-        title: "AI Chat Assistant",
+        title: "Bone-Age-Prediction ",
         description:
           "Smart customer support assistant with contextual awareness and real-time replies.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4",
+        image: "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754144216/Bone-age_uhddwf.png",
         gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=4-3",
+          "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754144216/Bone-age_uhddwf.png"
         ],
-        category: "Applications",
+        category: "Machine-learning",
         details:
-          "AI-powered chat assistant developed with React and TailwindCSS. Integrated with OpenAI’s GPT API for contextual conversations, deployed via Vercel with real-time response and adaptive UI.",
-        github: "https://github.com",
-        live: "https://example.com",
+          "A software based solution using deep learning to predict the age of a person below 18 years, using the X-ray image of a hand not requiring any medical expertise.",
+        github: "https://github.com/pratik-99/Bone-Age-Prediction",
+        live: "https://github.com/pratik-99/Bone-Age-Prediction",
         tech: [
-          { name: "React", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "OpenAI API", icon: "simple-icons:openai" },
-          { name: "Vercel", icon: "simple-icons:vercel" },
-        ],
-      },
-      {
-        id: 5,
-        title: "Portfolio API & CMS",
-        description:
-          "Headless API backend with admin-friendly CMS capabilities.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=5-3",
-        ],
-        category: "Backend Services",
-        details:
-          "A modular REST API built with Node.js and Express, powering dynamic portfolio websites. It includes JWT-based authentication, MySQL integration, and a Swagger-documented CMS interface for easy content management by non-developers.",
-        github: "https://github.com",
-        tech: [
-          { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "MySQL", icon: "logos:mysql-icon" },
-          { name: "JWT", icon: "simple-icons:jsonwebtokens" },
-          { name: "Swagger", icon: "simple-icons:swagger" },
-        ],
-      },
-      {
-        id: 6,
-        title: "Fitness Tracker App",
-        description:
-          "Monitor workouts, calorie intake, and goals in one place.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=6-3",
-        ],
-        category: "Applications",
-        details:
-          "A cross-platform fitness application developed with React Native and styled using TailwindCSS via Expo. It offers calorie tracking, workout logging, analytics via charts, and custom goal-setting—all within a mobile-optimized interface.",
-        github: "https://github.com",
-        live: "https://example.com",
-        tech: [
-          { name: "React Native", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "Expo", icon: "simple-icons:expo" },
-        ],
-      },
-      {
-        id: 7,
-        title: "Content Scheduler",
-        description:
-          "Plan, schedule, and automate your social media posts effortlessly.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=7-3",
-        ],
-        category: "Applications",
-        details:
-          "A productivity app designed for content creators featuring calendar syncing, automated post publishing, rich media previews, and cloud synchronization for seamless cross-device access.",
-        github: "https://github.com",
-        live: "https://example.com",
-        tech: [
-          { name: "Next.js", icon: "skill-icons:nextjs-dark" },
-          { name: "MySQL", icon: "logos:mysql-icon" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-        ],
-      },
-      {
-        id: 8,
-        title: "Real Estate Dashboard",
-        description:
-          "Comprehensive dashboard to manage properties, leads, and sales pipelines effectively.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=8-3",
-        ],
-        category: "Web Development",
-        details:
-          "An admin panel tailored for real estate professionals featuring interactive data visualizations, lead tracking, and CRM system integrations to streamline client and property management.",
-        github: "https://github.com",
-        live: "https://example.com",
-        tech: [
-          { name: "React", icon: "logos:react" },
-          { name: "TailwindCSS", icon: "logos:tailwindcss-icon" },
-          { name: "Chart.js", icon: "simple-icons:chartdotjs" },
-        ],
-      },
-      {
-        id: 9,
-        title: "Crypto Wallet API",
-        description:
-          "Robust backend API for secure cryptocurrency operations and blockchain interactions.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=9-3",
-        ],
-        category: "Backend Services",
-        details:
-          "Secure Node.js API supporting Ethereum and Bitcoin transactions. Features transaction signing, wallet address creation, and real-time blockchain event monitoring using Web3.js. Enhanced with hardware security module (HSM) integration for secure key management.",
-        github: "https://github.com",
-        tech: [
-          { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "Ethereum", icon: "logos:ethereum" },
-          { name: "Web3.js", icon: "simple-icons:web3dotjs" },
-          { name: "PostgreSQL", icon: "logos:postgresql" },
-          { name: "JWT", icon: "simple-icons:jsonwebtokens" },
-        ],
-      },
-      {
-        id: 10,
-        title: "SaaS Subscription API",
-        description:
-          "Backend API managing SaaS subscriptions, billing, and user accounts.",
-        image: "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10",
-        gallery: [
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10-1",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10-2",
-          "https://img.heroui.chat/image/dashboard?w=600&h=400&u=10-3",
-        ],
-        category: "Backend Services",
-        details:
-          "RESTful API supporting SaaS subscription workflows with Stripe integration, usage metering, tiered pricing, webhook handling, trial periods, and analytics. Optimized for high concurrency with Redis caching.",
-        github: "https://github.com",
-        tech: [
-          { name: "Node.js", icon: "logos:nodejs-icon" },
-          { name: "Stripe", icon: "logos:stripe" },
-          { name: "PostgreSQL", icon: "logos:postgresql" },
-          { name: "Redis", icon: "logos:redis" },
-          { name: "JWT", icon: "simple-icons:jsonwebtokens" },
+          { name: "Python", icon: "logos:python" },
+          { name: "TensorFlow", icon: "simple-icons:tensorflow" },
+          { name: "Numpy", icon: "simple-icons:numpy" },
         ],
       },
     ],
@@ -458,8 +267,8 @@ export const DATA = {
       "Have a project in mind? Get in touch and let's create something amazing.",
     location: {
       mapSrc:
-        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.017947223557!2d-122.41941508468191!3d37.774929779759245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809cbb69f3ef%3A0x4c80b42c33b6a77d!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1715701234567!5m2!1sen!2sus",
-      address: "San Francisco, CA",
+        "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d241317.11609946407!2d72.74109984889887!3d19.0821978395088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63c003f8a09%3A0x2b0a8b7b8b0e5c29!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1691234567890!5m2!1sen!2sin",
+      address: "Mumbai, India",
     },
   },
   morphingTexts: {
@@ -474,27 +283,26 @@ export const DATA = {
     { name: "Contact", href: "/contact", icon: "lucide:send" },
   ],
   footer: {
-    name: "Sofiane Bahmed",
+    name: "Pratik Poojary",
     description: "Always interested in new projects and collaborations.",
     contact: {
-      email: "hello@example.com",
-      phone: "+1 (555) 123-4567",
-      location: "San Francisco, CA",
+      email: "ppoojary393@gmail.com",
+      phone: "+91 9167439226",
+      location: "Mumbai, India",
     },
     socialLinks: [
-      { platform: "X", url: "https://x.com", icon: "simple-icons:x" },
-      { platform: "GitHub", url: "https://github.com", icon: "mdi:github" },
+      { platform: "GitHub", url: "https://github.com/pratik-99", icon: "mdi:github" },
       {
         platform: "LinkedIn",
-        url: "https://linkedin.com",
+        url: "www.linkedin.com/in/poojarypratik",
         icon: "mdi:linkedin",
       },
       {
-        platform: "Dribbble",
-        url: "https://dribbble.com",
-        icon: "mdi:dribbble",
+        platform: "Instagram",
+        url: "https://www.instagram.com/pratik.poojary/",
+        icon: "mdi:instagram",
       },
     ],
-    services: ["UI/UX Design", "Web Development", "Mobile Apps", "Consulting"],
+    services: ["Web Development", "Back-End Development", "Consulting"],
   },
 } as const;

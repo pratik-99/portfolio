@@ -12,6 +12,7 @@ export interface SectionHeaderProps {
 }
 
 export interface TimelineItemProps {
+  company?: string;
   title: string;
   date: string;
   description: string;
@@ -26,7 +27,9 @@ export interface EducationItem {
   readonly icon?: string;
 }
 
-export interface ExperienceItem extends EducationItem {}
+export interface ExperienceItem extends EducationItem {
+  readonly company: string;
+}
 
 export interface TechItem {
   readonly name: string;

@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 
 import { SectionHeader } from "@/components/about/section-header";
-import { TimelineItem } from "@/components/about/timelines/timeline-item";
+import { TimelineItemExperience } from "@/components/about/timelines/timeline-item-experience";
 import { containerVariants, itemVariants } from "@/components/about/variants";
 import { ExperienceItems } from "@/components/about/types";
 
@@ -23,13 +23,14 @@ export const ExperienceTimeline = ({ experience }: ExperienceTimelineProps) => (
     >
       <div className="absolute top-2 left-2 bottom-0 w-px bg-primary-500" />
       {experience.map((item, idx) => (
-        <TimelineItem
+        <TimelineItemExperience
           key={idx}
           date={item.date}
           delay={idx * 300}
           description={item.description}
           title={item.title}
           variants={itemVariants}
+          company={item.company}
         />
       ))}
     </motion.ol>

@@ -10,7 +10,7 @@ import { Hole } from "@/components/backgrounds/hole/hole";
 import { DATA } from "@/data";
 
 export const HeroSection = ({
-  showBackground = true,
+  showBackground = false,
   name = DATA.home.hero.name,
   title = DATA.home.hero.title,
   subtitle = DATA.home.hero.subtitle,
