@@ -3,11 +3,6 @@
 This is a modern, animated, and fully responsive portfolio template built with **nextjs**, **typescript**, **Tailwind CSS**, and **Framer Motion**. It's designed to be easily customizable and provides a great starting point for developers who want to create a stunning personal portfolio.
 
 <br/>
-<p align="center">
-  <a href="https://portfolio-template-seven-murex.vercel.app" target="_blank">
-    <img src="./public/github-cover.png" alt="portfolio-template" />
-  </a>
-</p>
 
 ## Features
 
