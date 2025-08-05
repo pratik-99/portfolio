@@ -107,9 +107,9 @@ export const DATA = {
       image:
         "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754122232/pratik_crop_xc6u7q.jpg",
       description: [
-        "I'm a creative full-stack developer with a passion for UI/UX design and clean code. I focus on building beautiful, functional, and high-performance websites and web apps.",
-        "My approach is both technical and aesthetic — I enjoy turning complex problems into elegant user experiences. I work primarily with modern frameworks like React, Vite, and TailwindCSS.",
-        "Outside of code, I enjoy motion design, product strategy, and always pushing the boundaries of front-end development.",
+        "I'm a full-stack developer I focus on building beautiful, functional, and high-performance websites and web apps.",
+        "My approach is both technical and aesthetic — I enjoy turning complex problems into elegant user experiences. I work primarily with modern technologies like React, Typescript, and Nodejs.",
+        "Outside of code, I enjoy Playing chess, learning stuff from different domains, and always pushing the boundaries to get better then yesterday.",
       ],
     },
     education: [

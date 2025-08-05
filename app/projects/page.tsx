@@ -2,7 +2,6 @@
 
 import { useState, useMemo } from "react";
 
-import { PageHeader } from "@/components/page-header";
 import { ProjectsTabs } from "@/components/projects/projects-tabs";
 import { ProjectsGrid } from "@/components/projects/projects-grid";
 import { DATA } from "@/data";
@@ -29,7 +28,6 @@ const ProjectsPage = () => {
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
-      <PageHeader texts={DATA.morphingTexts.projects} />
 
       <ProjectsTabs
         categories={categories}
