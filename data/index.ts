@@ -39,64 +39,33 @@ export const DATA = {
     },
     testimonials: {
       sectionTitle: "Certifications",
-      sectionDescription: "What clients say about working together",
+      sectionDescription: "",
       items: [
         {
           id: 1,
-          name: "Sarah Johnson",
-          role: "Product Manager at TechNova",
+          name: "Coursera",
+          role: "Issued Jun 2020",
           content:
-            "The design system created for our SaaS platform reduced our development time by 40% while improving consistency across all our products. The attention to accessibility standards was particularly impressive.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=1",
+            "Python 3 Programming Specialization",
+          avatar: "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754587886/coursera-seeklogo_hblekv.png",
         },
         {
           id: 2,
-          name: "Michael Chen",
-          role: "CTO at StartUpGrid",
+          name: "Google",
+          role: "Issued Nov 2021",
           content:
-            "Working with this team transformed our mobile app's user retention by 35% in just three months. Their data-driven design approach helped us identify pain points we didn't even know existed.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=2",
+            "Google IT Support Specialization",
+          avatar: "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754587915/google-2015-seeklogo_ybnzv0.png",
         },
         {
           id: 3,
-          name: "David Rodriguez",
-          role: "UX Director at FinTech Global",
+          name: "deeplearning.ai",
+          role: "Issued Dec 2020",
           content:
-            "The dashboard redesign resulted in a 50% reduction in support tickets. Their ability to balance complex financial data with clean visualization is unmatched in the industry.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=3",
+            "DeepLearning.AI Tensorflow Developer",
+          avatar: "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754588180/Icon_jemz1g.png",
         },
-        {
-          id: 4,
-          name: "Priya Patel",
-          role: "E-commerce Manager at StyleHub",
-          content:
-            "Our conversion rate increased by 28% after implementing their checkout flow redesign. They understood our international user base better than our internal team.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=4",
-        },
-        {
-          id: 5,
-          name: "James Wilson",
-          role: "Head of Product at HealthTrack",
-          content:
-            "The healthcare app we built together received FDA approval largely due to its intuitive patient interface. Their understanding of regulatory requirements saved us months of rework.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=5",
-        },
-        {
-          id: 6,
-          name: "Lisa Nguyen",
-          role: "Marketing Director at EduTech Solutions",
-          content:
-            "Our user onboarding completion rate went from 65% to 92% after their redesign. The way they simplified complex educational concepts into clear interfaces was remarkable.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=6",
-        },
-        {
-          id: 7,
-          name: "Thomas Okafor",
-          role: "Founder at AgriTech Africa",
-          content:
-            "They designed an agricultural monitoring app that works perfectly even in low-connectivity rural areas. Cultural sensitivity and technical innovation in perfect balance.",
-          avatar: "https://img.heroui.chat/image/avatar?w=100&h=100&u=7",
-        },
+        
       ],
     },
   },

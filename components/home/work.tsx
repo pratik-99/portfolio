@@ -19,7 +19,7 @@ export const WorkSection = () => {
   const handleCloseModal = () => setSelectedProject(null);
 
   return (
-    <section className="py-20 bg-background" id="work-section">
+    <section className="py-20 bg-content1" id="work-section">
       <div className="max-w-7xl mx-auto px-4">
         <motion.div
           className="text-center mb-16"

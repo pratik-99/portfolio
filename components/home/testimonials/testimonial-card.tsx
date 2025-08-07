@@ -19,16 +19,16 @@ export const TestimonialCard = memo(function TestimonialCard({
     <Card className="border-none h-80 md:h-64 bg-white/90 dark:bg-black/40">
       <CardBody className="p-6 flex flex-col">
         <div>
-          <Icon className="w-8 h-8 text-primary-500 mb-4" icon="lucide:quote" />
-          <p className="text-foreground-600 mb-6 italic">
-            &ldquo;{content}&rdquo;
+          
+          <p className="text-foreground-600 mb-5 text-4xl">
+            {content}
           </p>
+            <p className="text-lg text-foreground-500" >{role}</p>
         </div>
         <div className="flex items-center gap-4 mt-auto">
-          <Avatar className="ring-2 ring-primary-200" size="lg" src={avatar} />
+          <Avatar className="bg-white text-black ring-2 ring-primary-200 rounded-full shadow-sm" size="lg" src={avatar} />
           <div>
-            <h4 className="font-semibold">{name}</h4>
-            <p className="text-sm text-foreground-500">{role}</p>
+            <h1 className="font-semibold  text-2xl md:text-4xl">{name}</h1>
           </div>
         </div>
       </CardBody>
