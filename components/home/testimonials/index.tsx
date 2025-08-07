@@ -26,7 +26,7 @@ export const TestimonialsSection = () => {
   const currentTestimonial = items[currentIndex] || items[0];
 
   return (
-    <section className="py-20 bg-background bg-gradient-to-b from-background to-content2">
+    <section className="py-20 bg-background bg-content1 from-background to-content2">
       <div className="container mx-auto px-4">
         <motion.div
           className="text-center mb-16"
@@ -53,7 +53,7 @@ export const TestimonialsSection = () => {
                 className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 z-10"
                 radius="full"
                 variant="flat"
-                onClick={() => handleNavigation(prevTestimonial)}
+                onPress={() => handleNavigation(prevTestimonial)}
               >
                 <Icon
                   className="w-5 h-5"
@@ -66,7 +66,7 @@ export const TestimonialsSection = () => {
                 className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-12 z-10"
                 radius="full"
                 variant="flat"
-                onClick={() => handleNavigation(nextTestimonial)}
+                onPress={() => handleNavigation(nextTestimonial)}
               >
                 <Icon
                   className="w-5 h-5"
@@ -104,7 +104,7 @@ export const TestimonialsSection = () => {
                 radius="full"
                 size="sm"
                 variant="flat"
-                onClick={() => handleNavigation(prevTestimonial)}
+                onPress={() => handleNavigation(prevTestimonial)}
               >
                 <Icon
                   className="w-4 h-4"
@@ -136,7 +136,7 @@ export const TestimonialsSection = () => {
                 radius="full"
                 size="sm"
                 variant="flat"
-                onClick={() => handleNavigation(nextTestimonial)}
+                onPress={() => handleNavigation(nextTestimonial)}
               >
                 <Icon
                   className="w-4 h-4"
