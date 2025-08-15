@@ -11,7 +11,7 @@ export default {
 		extend: {
 			animation: {
 				orbit: "orbit calc(var(--duration)*1s) linear infinite",
-				 gradient: 'gradient 8s linear infinite'
+				 gradient: 'gradient 15s linear infinite'
 			},
 			keyframes: {
 				orbit: {

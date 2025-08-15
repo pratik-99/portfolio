@@ -35,17 +35,21 @@ export const HeroSection = ({
       <div className="container mx-auto px-4 z-10">
         <motion.div
           animate={{ opacity: 1, y: 0 }}
-          className="text-center max-w-4xl mx-auto"
+          className="text-center max-w-4xl mx-auto overflow-visible"
           initial={{ opacity: 0, y: 20 }}
           transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
         >
           <motion.h1
+          style={{ display: "inline-block" }}
             animate={{ opacity: 1, y: 0 }}
-            className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent"
+            className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary-500 to-secondary-500 bg-clip-text text-transparent overflow-visible pb-[2px]"
             initial={{ opacity: 0, y: 20 }}
             transition={{ delay: 0.2, duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
           >
+            <span className="inline-block pb-[0.2em] bg-gradient-to-r from-primary-500 via-secondary-500 to-primary-500 
+                     bg-[length:200%_200%] animate-gradient bg-clip-text text-transparent">
             Hi, I&apos;m {name} 
+            </span>
           </motion.h1>
 
           <motion.p

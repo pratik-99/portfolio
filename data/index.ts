@@ -4,7 +4,7 @@ export const DATA = {
       name: "Pratik Poojary",
       title: "Full stack developer",
       subtitle:
-        "I build fast, accessible and visually engaging web experiences.",
+        "Turning Ideas into scalable, user-friendly webapps - front to back.",
     },
     skills: {
       sectionTitle: "Skills & Expertise",
@@ -48,6 +48,7 @@ export const DATA = {
           content:
             "Python 3 Programming Specialization",
           avatar: "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754587886/coursera-seeklogo_hblekv.png",
+          link: "https://www.coursera.org/account/accomplishments/specialization/certificate/BXKGBWR7Q3KQ"
         },
         {
           id: 2,
@@ -56,6 +57,7 @@ export const DATA = {
           content:
             "Google IT Support Specialization",
           avatar: "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754587915/google-2015-seeklogo_ybnzv0.png",
+          link: "https://www.coursera.org/account/accomplishments/specialization/certificate/S7ZEB7AHZW4L"
         },
         {
           id: 3,
@@ -64,6 +66,7 @@ export const DATA = {
           content:
             "DeepLearning.AI Tensorflow Developer",
           avatar: "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754588180/Icon_jemz1g.png",
+          link: "https://www.coursera.org/account/accomplishments/specialization/certificate/5YQMD8BLBCNY"
         },
         
       ],
@@ -76,9 +79,9 @@ export const DATA = {
       image:
         "https://res.cloudinary.com/dt4hqvqlx/image/upload/v1754122232/pratik_crop_xc6u7q.jpg",
       description: [
-        "I'm a full-stack developer I focus on building beautiful, functional, and high-performance websites and web apps.",
-        "My approach is both technical and aesthetic — I enjoy turning complex problems into elegant user experiences. I work primarily with modern technologies like React, Typescript, and Nodejs.",
-        "Outside of code, I enjoy Playing chess, learning stuff from different domains, and always pushing the boundaries to get better then yesterday.",
+        "I'm a full-stack developer passionate about building beautiful, functional, and high-performance websites and web applications",
+        "I work primarily with modern, robust technologies like React, TypeScript, and Node.js — always striving to write clean, scalable, and maintainable code.",
+        "Beyond coding, you’ll often find me playing chess, exploring knowledge across different domains, and pushing my boundaries every single day — always aiming to be a little better than yesterday",
       ],
     },
     education: [
