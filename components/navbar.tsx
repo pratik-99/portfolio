@@ -14,7 +14,7 @@ import {
 } from "@heroui/react";
 import { Icon } from "@iconify/react";
 import { motion } from "framer-motion";
-
+import Image from "next/image";
 import { ThemeSwitcher } from "@/components/theme-switcher";
 import { DATA } from "@/data";
 
@@ -44,7 +44,11 @@ export const Navigation = () => {
               href="/"
               onClick={() => setIsMenuOpen(false)}
             >
-              Portfolio
+              <Image src="/icon.png" 
+              width={40} 
+              alt="Profile" 
+              height={40} 
+              className="rounded-full object-cover"/>
             </Link>
           </motion.div>
         </NavbarBrand>

@@ -51,6 +51,11 @@ export const metadata: Metadata = {
     },
     card: "summary_large_image",
   },
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",    
+  },
 };
 
 type RootLayoutProps = {
